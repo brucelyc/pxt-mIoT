@@ -127,25 +127,33 @@ namespace mIoT {
     //% weight=30 block="Write Thingspeak| apiKey(write) %apiKey| text %text" group="Thingspeak"
     export function writeThingspeak(apiKey: string, text: string) {
         mIoTWifiReconnect()
-	    mIoTWriteString("TKEY:" + apiKey, 100)
-	    mIoTWriteString("TTXT:" + text, 100)
-	    mIoTWriteString("TWRGO", 100)
+        mIoTWriteString("TKEY:" + apiKey, 100)
+        mIoTWriteString("TTXT:" + text, 100)
+        mIoTWriteString("TWRGO", 100)
     }
 
     //% weight=20 block="Write Thingspeak| apiKey(write) %apiKey| field1 %value1" group="Thingspeak"
     export function writeThingspeakv1(apiKey: string, value1: number) {
         mIoTWifiReconnect()
-	    mIoTWriteString("TKEY:" + apiKey, 100)
-	    mIoTWriteString("VAL1:" + value1, 100)
-	    mIoTWriteString("TWRGO", 100)
+        mIoTWriteString("TKEY:" + apiKey, 100)
+        mIoTWriteString("VAL1:" + value1, 100)
+        mIoTWriteString("TWRGO", 100)
     }
 
     //% weight=10 block="Write Thingspeak| apiKey(write) %apiKey| field1 %value1| field2 %value2" group="Thingspeak"
     export function writeThingspeakv2(apiKey: string, value1: number, value2: number) {
         mIoTWifiReconnect()
-	    mIoTWriteString("TKEY:" + apiKey, 100)
-	    mIoTWriteString("VAL1:" + value1, 100)
-	    mIoTWriteString("VAL2:" + value2, 100)
-	    mIoTWriteString("TWRGO", 100)
-	}
+        mIoTWriteString("TKEY:" + apiKey, 100)
+        mIoTWriteString("VAL1:" + value1, 100)
+        mIoTWriteString("VAL2:" + value2, 100)
+        mIoTWriteString("TWRGO", 100)
+    }
+
+    //% block="Web Dashboard| SSID %wSSID| Password %wPassword" group="MyDashboard" advanced=true
+    export function mWebDashboard(wSSID: string, wPassword: string) {
+        mIoTWifiReconnect()
+        mIoTWriteString("WSID:" + wSSID, 100)
+        mIoTWriteString("WPWD:" + wPassword, 100)
+        mIoTWriteString("WDBGO", 100)
+    }
 }
