@@ -5,5 +5,7 @@
   "mIoT.writeThingspeakv1|block": "寫入 Thingspeak| apiKey(寫) %apiKey| 欄位1 %value1",
   "mIoT.writeThingspeakv2|block": "寫入 Thingspeak| apiKey(寫) %apiKey| 欄位1 %value1| 欄位2 %value2",
   "mIoT.writeThingspeak|block": "寫入 Thingspeak| apiKey(寫) %apiKey| 字串 %text",
-  "{id:category}MIoT": "M物聯網"
+  "{id:category}MIoT": "MIoT",
+  "{id:group}Thingspeak": "Thingspeak",
+  "{id:group}WiFi": "WiFi"
 }

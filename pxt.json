@@ -7,8 +7,9 @@
         "core": "*"
     },
     "files": [
-        "README.md",
-        "mIoT.ts"
+        "_locales/zh-TW/pxt-mIoT-strings.json",
+        "mIoT.ts",
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
