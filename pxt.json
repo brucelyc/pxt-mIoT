@@ -1,0 +1,21 @@
+{
+    "name": "pxt-mIoT",
+    "version": "0.0.1",
+    "description": "Wi-Fi Extension for Micro:bit.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "mIoT.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "brucelyc"
+}

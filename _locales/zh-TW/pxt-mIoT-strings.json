@@ -1,0 +1,9 @@
+{
+  "mIoT.mIoTWifiConnect|block": "WIFI連接到|SSID|%ssid|密碼|%password",
+  "mIoT.mIoTWifiReconnect|block": "重新連接WIFI",
+  "mIoT.mIoTWifiStatus|block": "Wifi狀態",
+  "mIoT.writeThingspeakv1|block": "寫入 Thingspeak| apiKey(寫) %apiKey| 欄位1 %value1",
+  "mIoT.writeThingspeakv2|block": "寫入 Thingspeak| apiKey(寫) %apiKey| 欄位1 %value1| 欄位2 %value2",
+  "mIoT.writeThingspeak|block": "寫入 Thingspeak| apiKey(寫) %apiKey| 字串 %text",
+  "{id:category}MIoT": "M物聯網"
+}
