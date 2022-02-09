@@ -25,6 +25,10 @@ namespace mIoT {
     let mIoTWifiPSWD   = strTypeIsNone
     let mIoTWifiIP     = "0.0.0.0"
 
+    //web
+    let mIoTWebSSID   = strTypeIsNone
+    let mIoTWebPSWD   = strTypeIsNone
+
     //state
     let mIoTWifiConnected = boolTypeIsFalse
 
@@ -149,10 +153,16 @@ namespace mIoT {
         mIoTWriteString("TWRGO", 100)
     }
 
+    function mIoTSetWebSSIDPW(ssid: string, password: string): void {
+        mIoTWebSSID = ssid
+        mIoTWebPSWD = password
+    }
+
     //% block="Web Dashboard Init| SSID %wSSID| Password %wPassword" group="Dashboard" advanced=true
-    export function mIoTWebDashboard(wSSID: string, wPassword: string) {
-        mIoTWriteString("WSID:" + wSSID, 100)
-        mIoTWriteString("WPWD:" + wPassword, 100)
+    export function mIoTWebDashboard(ssid: string, password: string) {
+        mIoTSetWebSSIDPW(ssid, password)
+        mIoTWriteString("WSID:" + ssid, 100)
+        mIoTWriteString("WPWD:" + password, 100)
         mIoTWriteString("WDBGO", 100)
     }
 }
