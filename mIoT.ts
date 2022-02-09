@@ -1,5 +1,5 @@
 //% color=#45B39D icon="\uf1eb" block="mIoT"
-//% groups="['WiFi', 'Thingspeak', 'MyDashboard']"
+//% groups="['WiFi', 'Thingspeak', 'Dashboard']"
 namespace mIoT {
     //debug
     const debug = false
@@ -149,7 +149,7 @@ namespace mIoT {
         mIoTWriteString("TWRGO", 100)
     }
 
-    //% block="Web Dashboard| SSID %wSSID| Password %wPassword" group="MyDashboard" advanced=true
+    //% block="Web Dashboard| SSID %wSSID| Password %wPassword" group="Dashboard" advanced=true
     export function mWebDashboard(wSSID: string, wPassword: string) {
         mIoTWifiReconnect()
         mIoTWriteString("WSID:" + wSSID, 100)
