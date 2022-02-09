@@ -27,5 +27,5 @@ Pin 16 <---> TX
 ![積木程式說明一](https://user-images.githubusercontent.com/19259753/153127130-0a8d151b-7978-4c6b-9225-7098f2aff4bf.JPG "積木程式說明一")
 
 ## Micro:bit 顯示之 ESP8266 連接狀態
-![ESP8266狀態](https://user-images.githubusercontent.com/19259753/153131212-e43e45bd-328d-4773-b0e3-72dc879307f4.JPG "ESP8266狀態")
+![ESP8266狀態](https://user-images.githubusercontent.com/19259753/153134041-766cf9ed-04de-415e-a14d-331e995545e9.JPG "ESP8266狀態")
 
