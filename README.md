@@ -24,5 +24,5 @@ Pin 16 <---> TX
 
 # 擴展積木說明
 
-待編輯
+![積木程式說明一](https://user-images.githubusercontent.com/19259753/153127130-0a8d151b-7978-4c6b-9225-7098f2aff4bf.JPG "積木程式說明一")
 
