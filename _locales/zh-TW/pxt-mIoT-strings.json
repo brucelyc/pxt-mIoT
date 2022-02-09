@@ -7,5 +7,6 @@
   "mIoT.writeThingspeak|block": "寫入 Thingspeak| apiKey(寫) %apiKey| 字串 %text",
   "{id:category}MIoT": "MIoT",
   "{id:group}Thingspeak": "Thingspeak",
-  "{id:group}WiFi": "WiFi"
+  "{id:group}WiFi": "WiFi",
+  "{id:group}Dashboard": "Dashboard"
 }
