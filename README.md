@@ -24,7 +24,7 @@ Pin 16 <---> TX
 
 # 擴展積木說明
 
-![積木程式說明一](https://user-images.githubusercontent.com/19259753/153127130-0a8d151b-7978-4c6b-9225-7098f2aff4bf.JPG "積木程式說明一")
+![積木程式說明一](https://user-images.githubusercontent.com/19259753/153134643-622dda37-a01f-4161-b0a3-2c8999c8f874.JPG "積木程式說明一")
 
 ## Micro:bit 顯示之 ESP8266 連接狀態
 ![ESP8266狀態](https://user-images.githubusercontent.com/19259753/153134041-766cf9ed-04de-415e-a14d-331e995545e9.JPG "ESP8266狀態")
