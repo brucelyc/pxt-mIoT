@@ -18,3 +18,11 @@ Pin 15 <---> RX
 Pin 16 <---> TX  
   
 ![Micro:bit 與 NodeMCU連接圖](https://user-images.githubusercontent.com/19259753/153125118-9781d2f8-0ee5-43df-b46a-9317ef87b23b.png "Micro:bit 與 NodeMCU連接圖")
+
+## 燒錄 ESP8266 軔體
+待編輯
+
+# 擴展積木說明
+
+待編輯
+
