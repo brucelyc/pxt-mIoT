@@ -151,7 +151,6 @@ namespace mIoT {
 
     //% block="Web Dashboard Init| SSID %wSSID| Password %wPassword" group="Dashboard" advanced=true
     export function mIoTWebDashboard(wSSID: string, wPassword: string) {
-        mIoTWifiReconnect()
         mIoTWriteString("WSID:" + wSSID, 100)
         mIoTWriteString("WPWD:" + wPassword, 100)
         mIoTWriteString("WDBGO", 100)
