@@ -160,6 +160,9 @@ namespace mIoT {
 
     //% block="Web Dashboard Init| SSID %wSSID| Password %wPassword" group="Dashboard" advanced=true
     export function mIoTWebDashboard(ssid: string, password: string) {
+        if (!mIoTSerialInited) {
+            mIoTSerialInit()
+        }
         mIoTSetWebSSIDPW(ssid, password)
         mIoTWriteString("WSID:" + ssid, 100)
         mIoTWriteString("WPWD:" + password, 100)
