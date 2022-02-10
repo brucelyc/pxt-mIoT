@@ -83,9 +83,9 @@ namespace mIoT {
 
 	if (mIoTSerialInited) {
             mIoTWriteString("SSID:" + mIoTWifiSSID, 1000)
-	        mIoTWriteString("PSWD:" + mIoTWifiPSWD, 1000)
-	        msg = strTypeIsNone
-	        mIoTReadString()
+            mIoTWriteString("PSWD:" + mIoTWifiPSWD, 1000)
+            msg = strTypeIsNone
+            mIoTReadString()
             if (msg.substr(0,6) == "WIFIOK") {
                 basic.showLeds(`
                     # # # . .
@@ -167,5 +167,16 @@ namespace mIoT {
         mIoTWriteString("WSID:" + ssid, 100)
         mIoTWriteString("WPWD:" + password, 100)
         mIoTWriteString("WDBGO", 100)
+        msg = strTypeIsNone
+        mIoTReadString()
+        if (msg.substr(0,5) == "WebOK") {
+            basic.showLeds(`
+                . # # # .
+                # . # . #
+                # # # # #
+                # . # . #
+                . # # # .
+                `)
+        }
     }
 }
