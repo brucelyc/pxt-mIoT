@@ -167,16 +167,16 @@ namespace mIoT {
         mIoTWriteString("WSID:" + ssid, 100)
         mIoTWriteString("WPWD:" + password, 100)
         mIoTWriteString("WDBGO", 100)
-        msg = strTypeIsNone
-        mIoTReadString()
-        if (msg.substr(0,5) == "WebOK") {
-            basic.showLeds(`
-                . # # # .
-                # . # . #
-                # # # # #
-                # . # . #
-                . # # # .
-                `)
+        while(msg.substr(0,5) != "WebOK"){
+            msg = strTypeIsNone
+            mIoTReadString()
         }
+        basic.showLeds(`
+            . # # # .
+            # . # . #
+            # # # # #
+            # . # . #
+            . # # # .
+        `)
     }
 }
