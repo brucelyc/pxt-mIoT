@@ -28,6 +28,10 @@ Pin 16 <---> TX
 
 ![積木程式說明一](https://user-images.githubusercontent.com/19259753/153134643-622dda37-a01f-4161-b0a3-2c8999c8f874.JPG "積木程式說明一")
 
+## 與 AP 連線
+
+![AP連線積木範例](https://user-images.githubusercontent.com/19259753/154007479-567ef1a4-16d9-4071-a4a2-71f1920c4a97.png "AP連線積木範例")
+
 ## Micro:bit 顯示之 ESP8266 連接狀態
 ![ESP8266狀態](https://user-images.githubusercontent.com/19259753/153134041-766cf9ed-04de-415e-a14d-331e995545e9.JPG "ESP8266狀態")
 
