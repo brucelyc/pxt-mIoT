@@ -38,5 +38,11 @@ Pin 16 <---> TX
 
 ## 將資料傳送至 Thingspeak
 
+傳送一欄資料範例  
 ![Thinkspeak積木範例一](https://user-images.githubusercontent.com/19259753/154010069-95199474-a5fd-49cf-ba66-125aab5a9dc3.png "Thinkspeak積木範例一")  
+
+傳送二欄資料範例  
 ![Thinkspeak積木範例二](https://user-images.githubusercontent.com/19259753/154010631-294f4dc1-aaf6-48e3-bdf8-6190cd3733ff.png "Thinkspeak積木範例二")  
+
+傳送超過二欄資料範例  
+![Thinkspeak積木範例三](https://user-images.githubusercontent.com/19259753/154013896-b2bddfb5-c297-4ffc-9575-ab94495eed34.png "Thinkspeak積木範例三")  
